@@ -9,6 +9,7 @@ __global__ void convertData(char* text, int length)
     {
         //ALPHA
         if (text[i] >= 'A')
+            text[i] = '.';
     }
 }
 
