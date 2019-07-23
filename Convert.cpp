@@ -8,6 +8,8 @@ Convert::~Convert()
 {
 }
 
+//convert datastream
+
 char *Convert::convertData(char *src, int src_length)
 {
 
